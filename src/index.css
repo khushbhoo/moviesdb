@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.movie-card:hover {
+    opacity: .8;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+/* Pagination.css */
+
+.pagination-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination-item {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.pagination-item:hover {
+    border: 1px solid #007bff;
+    background-color: #007bff;
+}
+
+.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
